@@ -165,5 +165,4 @@ newsletterForm.addEventListener('submit', (event) => {
   newsletterMessage.textContent = document.documentElement.lang === 'en'
     ? 'Thanks for subscribing! See you in your inbox.'
     : 'Дякуємо за підписку! До зустрічі у вашій пошті.';
-  window.scrollTo({ top: 0, behavior: 'smooth' });
 });
